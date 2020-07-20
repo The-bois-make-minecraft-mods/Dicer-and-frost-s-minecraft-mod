@@ -2,6 +2,24 @@
   "id_map": {},
   "mod_elements": [
     {
+      "name": "FossilOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossil_ore_smelting"
+    },
+    {
+      "name": "Ash",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ash"
+    },
+    {
       "name": "FossilOre",
       "type": "block",
       "sortid": 1,
@@ -20,22 +38,13 @@
       "registry_name": "fossil_gem"
     },
     {
-      "name": "FossilOreSmelting",
-      "type": "recipe",
-      "sortid": 6,
+      "name": "Beachgetayways",
+      "type": "biome",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "fossil_ore_smelting"
-    },
-    {
-      "name": "Ash",
-      "type": "item",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ash"
+      "registry_name": "beachgetayways"
     }
   ],
   "variable_elements": [],
