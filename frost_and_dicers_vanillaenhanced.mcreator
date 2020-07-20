@@ -1,10 +1,51 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "FossilOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossil_ore"
+    },
+    {
+      "name": "FossilGem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossil_gem"
+    },
+    {
+      "name": "FossilOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossil_ore_smelting"
+    },
+    {
+      "name": "Ash",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ash"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
+      "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossil Ore",
+      "item.frost_and_dicers_vanillaenhanced.ash": "Ash"
+    }
   },
   "workspaceSettings": {
     "modid": "frost_and_dicers_vanillaenhanced",
