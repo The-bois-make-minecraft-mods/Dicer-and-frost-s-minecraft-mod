@@ -3,29 +3,24 @@ package net.mcreator.frostanddicersvanillaenhanced.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.common.PlantType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.potion.Effects;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.frostanddicersvanillaenhanced.item.CoconutitemItem;
 import net.mcreator.frostanddicersvanillaenhanced.FrostAndDicersVanillaenhancedModElements;
 
 import java.util.List;
@@ -36,13 +31,14 @@ public class CoconutplantBlock extends FrostAndDicersVanillaenhancedModElements.
 	@ObjectHolder("frost_and_dicers_vanillaenhanced:coconutplant")
 	public static final Block block = null;
 	public CoconutplantBlock(FrostAndDicersVanillaenhancedModElements instance) {
-		super(instance, 4);
+		super(instance, 18);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustomFlower());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
+		elements.blocks.add(() -> new CustomBlock());
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
@@ -50,18 +46,20 @@ public class CoconutplantBlock extends FrostAndDicersVanillaenhancedModElements.
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
-	public static class BlockCustomFlower extends FlowerBlock {
-		public BlockCustomFlower() {
-			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.PLANT)
-					.hardnessAndResistance(0f, 0f).lightValue(0));
+	public static class CustomBlock extends Block {
+		public CustomBlock() {
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0f, 10f).lightValue(0).notSolid());
 			setRegistryName("coconutplant");
 		}
 
 		@Override
-		@OnlyIn(Dist.CLIENT)
-		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("boogabooga coconut"));
+		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return false;
+		}
+
+		@Override
+		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
+			return true;
 		}
 
 		@Override
@@ -69,12 +67,7 @@ public class CoconutplantBlock extends FrostAndDicersVanillaenhancedModElements.
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@Override
-		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
-			return PlantType.Beach;
+			return Collections.singletonList(new ItemStack(CoconutitemItem.block, (int) (1)));
 		}
 	}
 }
