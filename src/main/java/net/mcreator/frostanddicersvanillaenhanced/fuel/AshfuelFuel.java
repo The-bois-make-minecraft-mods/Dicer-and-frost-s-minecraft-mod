@@ -20,6 +20,6 @@ public class AshfuelFuel extends FrostAndDicersVanillaenhancedModElements.ModEle
 	@SubscribeEvent
 	public void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {
 		if (event.getItemStack().getItem() == new ItemStack(AshItem.block, (int) (1)).getItem())
-			event.setBurnTime(1600);
+			event.setBurnTime(800);
 	}
 }
