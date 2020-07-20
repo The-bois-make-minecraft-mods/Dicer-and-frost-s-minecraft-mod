@@ -1,0 +1,26 @@
+{
+  "id_map": {},
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "workspaceSettings": {
+    "modid": "frost_and_dicers_vanillaenhanced",
+    "modName": "frost and dicer\u0027s vanillaenhanced",
+    "version": "1.0.0",
+    "author": "joshu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.frostanddicersvanillaenhanced",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}
