@@ -1,0 +1,29 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "coconut",
+    "customModelName": "Normal",
+    "name": "Coconut",
+    "specialInfo": [
+      "strong enough to knock someone out with..."
+    ],
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 2.5,
+    "usageCount": 1,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onEntityHitWith": {
+      "name": "CoconutLivingEntityIsHitWithTool"
+    }
+  }
+}

@@ -20,7 +20,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.frostanddicersvanillaenhanced.item.CoconutitemItem;
+import net.mcreator.frostanddicersvanillaenhanced.item.CoconutItem;
 import net.mcreator.frostanddicersvanillaenhanced.FrostAndDicersVanillaenhancedModElements;
 
 import java.util.List;
@@ -31,7 +31,7 @@ public class CoconutplantBlock extends FrostAndDicersVanillaenhancedModElements.
 	@ObjectHolder("frost_and_dicers_vanillaenhanced:coconutplant")
 	public static final Block block = null;
 	public CoconutplantBlock(FrostAndDicersVanillaenhancedModElements instance) {
-		super(instance, 18);
+		super(instance, 25);
 	}
 
 	@Override
@@ -48,7 +48,8 @@ public class CoconutplantBlock extends FrostAndDicersVanillaenhancedModElements.
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0f, 10f).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.PLANTS).sound(SoundType.WOOD).hardnessAndResistance(0f, 10f).lightValue(0).doesNotBlockMovement()
+					.notSolid());
 			setRegistryName("coconutplant");
 		}
 
@@ -67,7 +68,7 @@ public class CoconutplantBlock extends FrostAndDicersVanillaenhancedModElements.
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CoconutitemItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(CoconutItem.block, (int) (1)));
 		}
 	}
 }

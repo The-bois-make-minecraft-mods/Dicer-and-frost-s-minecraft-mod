@@ -30,7 +30,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Coconutitem"
+      "value": "CUSTOM:Coconut"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -39,7 +39,7 @@
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
-      "value": "LEAVES"
+      "value": "PLANTS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -55,9 +55,9 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "WOOD"
     },
     "luminance": 0.0,
     "unbreakable": false,

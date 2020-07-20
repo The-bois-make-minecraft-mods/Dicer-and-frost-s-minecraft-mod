@@ -9,21 +9,21 @@
       "value": "Blocks.SANDSTONE#0"
     },
     "generateLakes": false,
-    "treeType": 0,
+    "treeType": 1,
     "vanillaTreeType": "Mega pine trees",
     "minHeight": 7,
     "spawnVines": false,
     "treeVines": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:Beachwoodlog"
     },
     "treeBranch": {
-      "value": ""
+      "value": "CUSTOM:Beachwoodleaves"
     },
     "treeFruits": {
-      "value": ""
+      "value": "CUSTOM:Coconutplant"
     },
     "customColors": true,
     "airColor": {
@@ -56,7 +56,7 @@
     "biomeType": "WARM",
     "biomeCategory": "BEACH",
     "parent": {
-      "value": "ocean"
+      "value": "lukewarm_ocean"
     },
     "biomeDictionaryTypes": [],
     "spawnList": []
