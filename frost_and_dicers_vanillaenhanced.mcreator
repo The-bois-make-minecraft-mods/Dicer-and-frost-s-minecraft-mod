@@ -11,15 +11,6 @@
       "registry_name": "beachgetayways"
     },
     {
-      "name": "Beachwoodlog",
-      "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "beachwoodlog"
-    },
-    {
       "name": "Beachwoodleaves",
       "type": "block",
       "sortid": 3,
@@ -29,6 +20,15 @@
       "registry_name": "beachwoodleaves"
     },
     {
+      "name": "Beachwoodlog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodlog"
+    },
+    {
       "name": "Coconutplant",
       "type": "plant",
       "sortid": 4,
@@ -36,15 +36,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "coconutplant"
-    },
-    {
-      "name": "Crackedcoconut",
-      "type": "food",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crackedcoconut"
     },
     {
       "name": "CoconutitemLivingEntityIsHitWithItem",
@@ -62,17 +53,57 @@
           }
         ]
       }
+    },
+    {
+      "name": "Crackedcoconut",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crackedcoconut"
+    },
+    {
+      "name": "FossilOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossil_ore_smelting"
+    },
+    {
+      "name": "Ash",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ash"
+    },
+    {
+      "name": "FossilOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossil_ore"
+    },
+    {
+      "name": "FossilGem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossil_gem"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.frost_and_dicers_vanillaenhanced.crackedcoconut": "Cracked coconut",
-      "block.frost_and_dicers_vanillaenhanced.beachwoodlog": "Beachwood log",
-      "block.frost_and_dicers_vanillaenhanced.coconutplant": "Coconut plant",
-      "block.frost_and_dicers_vanillaenhanced.beachwoodleaves": "Beachwood leaves"
-    }
+    "en_us": {}
   },
   "workspaceSettings": {
     "modid": "frost_and_dicers_vanillaenhanced",
