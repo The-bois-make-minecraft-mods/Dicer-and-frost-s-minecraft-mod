@@ -302,15 +302,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sandcastle_2structure"
+    },
+    {
+      "name": "Smallpenguin",
+      "type": "mob",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smallpenguin"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "penguinidlesound",
+      "file": "penguin_idle",
+      "category": "neutral"
+    },
+    {
+      "name": "penguinhurt",
+      "file": "penguin_hurt",
+      "category": "neutral"
+    },
+    {
+      "name": "penguindeath",
+      "file": "penguin_death",
+      "category": "neutral"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.frost_and_dicers_vanillaenhanced.coconut": "Coconut",
       "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossil Ore",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_sword": "Fossiltools Sword",
+      "item.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin Spawn Egg",
       "block.frost_and_dicers_vanillaenhanced.beachwoodlog": "Beachwood log",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_shovel": "Fossiltools Shovel",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorlegs": "Bonearmour Leggings",
@@ -322,6 +348,7 @@
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorbody": "Bonearmour Chestplate",
       "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
       "item.frost_and_dicers_vanillaenhanced.crackedcoconut": "Cracked coconut",
+      "entity.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorhelmet": "Bonearmour Helmet",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_axe": "Fossiltools Axe",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorboots": "Bonearmour Boots",

@@ -1,1 +1,29 @@
-{}
+{
+  "penguinidlesound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "frost_and_dicers_vanillaenhanced:penguin_idle",
+        "stream": false
+      }
+    ]
+  },
+  "penguinhurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "frost_and_dicers_vanillaenhanced:penguin_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "penguindeath": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "frost_and_dicers_vanillaenhanced:penguin_death",
+        "stream": false
+      }
+    ]
+  }
+}
