@@ -31,7 +31,7 @@ public class FossiltoolsAxeItem extends FrostAndDicersVanillaenhancedModElements
 			}
 
 			public float getAttackDamage() {
-				return 6f;
+				return 22f;
 			}
 
 			public int getHarvestLevel() {
