@@ -103,7 +103,15 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
+      "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossil Ore",
+      "item.frost_and_dicers_vanillaenhanced.crackedcoconut": "Cracked coconut",
+      "block.frost_and_dicers_vanillaenhanced.beachwoodlog": "Beachwood log",
+      "block.frost_and_dicers_vanillaenhanced.coconutplant": "Coconut plant",
+      "block.frost_and_dicers_vanillaenhanced.beachwoodleaves": "Beachwood leaves",
+      "item.frost_and_dicers_vanillaenhanced.ash": "Ash"
+    }
   },
   "workspaceSettings": {
     "modid": "frost_and_dicers_vanillaenhanced",
