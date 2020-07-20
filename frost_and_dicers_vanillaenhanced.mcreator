@@ -248,6 +248,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bonearmour_armor_boots_recipe"
+    },
+    {
+      "name": "Ashfuel",
+      "type": "fuel",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ashfuel"
     }
   ],
   "variable_elements": [],

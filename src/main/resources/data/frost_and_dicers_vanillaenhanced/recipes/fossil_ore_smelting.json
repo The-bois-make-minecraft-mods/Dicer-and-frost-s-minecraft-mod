@@ -4,9 +4,9 @@
   "experience": 2.8,
   "cookingtime": 200,
   "ingredient": {
-    "item": "frost_and_dicers_vanillaenhanced:unknown_element"
+    "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
   },
   "result": {
-    "item": "frost_and_dicers_vanillaenhanced:unknown_element"
+    "item": "frost_and_dicers_vanillaenhanced:ash"
   }
 }
