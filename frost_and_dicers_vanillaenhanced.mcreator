@@ -257,6 +257,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bonearmour_armor_boots_recipe"
+    },
+    {
+      "name": "Bogpits",
+      "type": "biome",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bogpits"
     }
   ],
   "variable_elements": [],
