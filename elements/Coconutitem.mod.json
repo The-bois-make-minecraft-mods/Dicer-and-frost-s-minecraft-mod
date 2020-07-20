@@ -17,7 +17,7 @@
     "destroyAnyBlock": false,
     "stayInGridWhenCrafting": false,
     "enableMeleeDamage": true,
-    "damageVsEntity": 0.5,
+    "damageVsEntity": 2.0,
     "specialInfo": [
       "hard enough to knock someone out..."
     ],
