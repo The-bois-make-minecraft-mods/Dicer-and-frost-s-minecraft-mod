@@ -45,6 +45,96 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "beachgetayways"
+    },
+    {
+      "name": "FossiltoolsPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_pickaxe"
+    },
+    {
+      "name": "FossiltoolsAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_axe"
+    },
+    {
+      "name": "FossiltoolsSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_sword"
+    },
+    {
+      "name": "FossiltoolsShovel",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_shovel"
+    },
+    {
+      "name": "FossiltoolsHoe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_hoe"
+    },
+    {
+      "name": "FossiltoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_pickaxe_recipe"
+    },
+    {
+      "name": "FossiltoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_axe_recipe"
+    },
+    {
+      "name": "FossiltoolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_sword_recipe"
+    },
+    {
+      "name": "FossiltoolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_shovel_recipe"
+    },
+    {
+      "name": "FossiltoolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_hoe_recipe"
     }
   ],
   "variable_elements": [],
@@ -53,6 +143,11 @@
     "en_us": {
       "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
       "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossil Ore",
+      "item.frost_and_dicers_vanillaenhanced.fossiltools_sword": "Fossiltools Sword",
+      "item.frost_and_dicers_vanillaenhanced.fossiltools_shovel": "Fossiltools Shovel",
+      "item.frost_and_dicers_vanillaenhanced.fossiltools_axe": "Fossiltools Axe",
+      "item.frost_and_dicers_vanillaenhanced.fossiltools_hoe": "Fossiltools Hoe",
+      "item.frost_and_dicers_vanillaenhanced.fossiltools_pickaxe": "Fossiltools Pickaxe",
       "item.frost_and_dicers_vanillaenhanced.ash": "Ash"
     }
   },

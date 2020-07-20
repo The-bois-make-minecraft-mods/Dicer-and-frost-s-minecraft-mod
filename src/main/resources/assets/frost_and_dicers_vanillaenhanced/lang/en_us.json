@@ -1,5 +1,10 @@
 {
   "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
   "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossil Ore",
+  "item.frost_and_dicers_vanillaenhanced.fossiltools_sword": "Fossiltools Sword",
+  "item.frost_and_dicers_vanillaenhanced.fossiltools_shovel": "Fossiltools Shovel",
+  "item.frost_and_dicers_vanillaenhanced.fossiltools_axe": "Fossiltools Axe",
+  "item.frost_and_dicers_vanillaenhanced.fossiltools_hoe": "Fossiltools Hoe",
+  "item.frost_and_dicers_vanillaenhanced.fossiltools_pickaxe": "Fossiltools Pickaxe",
   "item.frost_and_dicers_vanillaenhanced.ash": "Ash"
 }
