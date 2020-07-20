@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "frost_and_dicers_vanillaenhanced:block/beachwoodlog"
+    },
+    "facing=north": {
+      "model": "frost_and_dicers_vanillaenhanced:block/beachwoodlog"
+    },
+    "facing=east": {
+      "model": "frost_and_dicers_vanillaenhanced:block/beachwoodlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "frost_and_dicers_vanillaenhanced:block/beachwoodlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "frost_and_dicers_vanillaenhanced:block/beachwoodlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "frost_and_dicers_vanillaenhanced:block/beachwoodlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

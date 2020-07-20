@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frost_and_dicers_vanillaenhanced:blocks/beachwoodlogtopbottom",
+    "up": "frost_and_dicers_vanillaenhanced:blocks/beachwoodlogtopbottom",
+    "north": "frost_and_dicers_vanillaenhanced:blocks/beachwoodsides",
+    "east": "frost_and_dicers_vanillaenhanced:blocks/beachwoodsides",
+    "south": "frost_and_dicers_vanillaenhanced:blocks/beachwoodsides",
+    "west": "frost_and_dicers_vanillaenhanced:blocks/beachwoodsides",
+    "particle": "frost_and_dicers_vanillaenhanced:blocks/beachwoodlogtopbottom"
+  }
+}

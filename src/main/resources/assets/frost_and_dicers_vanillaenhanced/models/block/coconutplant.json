@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "frost_and_dicers_vanillaenhanced:blocks/coconutplant",
+    "particle": "frost_and_dicers_vanillaenhanced:blocks/coconutplant"
+  }
+}
