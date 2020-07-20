@@ -1,0 +1,30 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
+    },
+    "1": {
+      "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
+    },
+    "2": {
+      "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:fossiltools_axe",
+    "count": 1
+  }
+}

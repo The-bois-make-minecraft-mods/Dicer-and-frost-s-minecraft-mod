@@ -2,6 +2,42 @@
   "id_map": {},
   "mod_elements": [
     {
+      "name": "FossilOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossil_ore_smelting"
+    },
+    {
+      "name": "Ash",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ash"
+    },
+    {
+      "name": "FossilOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossil_ore"
+    },
+    {
+      "name": "FossilGem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossil_gem"
+    },
+    {
       "name": "Beachgetayways",
       "type": "biome",
       "sortid": 1,
@@ -64,53 +100,103 @@
       "registry_name": "crackedcoconut"
     },
     {
-      "name": "FossilOreSmelting",
+      "name": "FossiltoolsShovelRecipe",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "fossil_ore_smelting"
+      "registry_name": "fossiltools_shovel_recipe"
     },
     {
-      "name": "Ash",
-      "type": "item",
-      "sortid": 7,
+      "name": "FossiltoolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "ash"
+      "registry_name": "fossiltools_hoe_recipe"
     },
     {
-      "name": "FossilOre",
-      "type": "block",
-      "sortid": 1,
+      "name": "FossiltoolsPickaxe",
+      "type": "tool",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "fossil_ore"
+      "registry_name": "fossiltools_pickaxe"
     },
     {
-      "name": "FossilGem",
-      "type": "item",
-      "sortid": 3,
+      "name": "FossiltoolsHoe",
+      "type": "tool",
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "fossil_gem"
+      "registry_name": "fossiltools_hoe"
+    },
+    {
+      "name": "FossiltoolsAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_axe"
+    },
+    {
+      "name": "FossiltoolsShovel",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_shovel"
+    },
+    {
+      "name": "FossiltoolsSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_sword"
+    },
+    {
+      "name": "FossiltoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_pickaxe_recipe"
+    },
+    {
+      "name": "FossiltoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_axe_recipe"
+    },
+    {
+      "name": "FossiltoolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fossiltools_sword_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
       "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossil Ore",
-      "item.frost_and_dicers_vanillaenhanced.crackedcoconut": "Cracked coconut",
-      "block.frost_and_dicers_vanillaenhanced.beachwoodlog": "Beachwood log",
-      "block.frost_and_dicers_vanillaenhanced.coconutplant": "Coconut plant",
-      "block.frost_and_dicers_vanillaenhanced.beachwoodleaves": "Beachwood leaves",
-      "item.frost_and_dicers_vanillaenhanced.ash": "Ash"
+      "item.frost_and_dicers_vanillaenhanced.ash": "Ash",
+      "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil"
     }
   },
   "workspaceSettings": {
