@@ -1,0 +1,36 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
+    },
+    "1": {
+      "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
+    },
+    "2": {
+      "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
+    },
+    "3": {
+      "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
+    },
+    "5": {
+      "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
+    },
+    "6": {
+      "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
+    },
+    "8": {
+      "item": "frost_and_dicers_vanillaenhanced:fossil_gem"
+    }
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:bonearmour_armorlegs",
+    "count": 1
+  }
+}

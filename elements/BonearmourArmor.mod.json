@@ -1,0 +1,47 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bonearmour_head",
+    "enableBody": true,
+    "textureBody": "bonearmour_body",
+    "enableLeggings": true,
+    "textureLeggings": "bonearmour_leggings",
+    "enableBoots": true,
+    "textureBoots": "bonearmour_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "bonearmour",
+    "helmetName": "Bonearmour Helmet",
+    "bodyName": "Bonearmour Chestplate",
+    "leggingsName": "Bonearmour Leggings",
+    "bootsName": "Bonearmour Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 60,
+    "damageValueHelmet": 8,
+    "damageValueBody": 20,
+    "damageValueLeggings": 24,
+    "damageValueBoots": 8,
+    "enchantability": 36,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}
