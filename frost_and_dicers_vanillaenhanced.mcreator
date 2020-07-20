@@ -1,6 +1,16 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Beachgetayways",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachgetayways"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
