@@ -57,7 +57,7 @@ public class BeachgetaywaysBiome extends FrostAndDicersVanillaenhancedModElement
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.4f).depth(0.1f).scale(0.2f).temperature(0.7f).precipitation(Biome.RainType.RAIN)
+			super(new Biome.Builder().downfall(0.4f).depth(0f).scale(0.01f).temperature(0.7f).precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.BEACH).waterColor(-14368565).waterFogColor(-14368565).parent("lukewarm_ocean")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.SAND.getDefaultState(),
 							Blocks.SANDSTONE.getDefaultState(), Blocks.SANDSTONE.getDefaultState())));

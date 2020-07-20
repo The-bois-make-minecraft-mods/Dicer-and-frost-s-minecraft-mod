@@ -74,23 +74,6 @@
       "registry_name": "coconutplant"
     },
     {
-      "name": "CoconutitemLivingEntityIsHitWithItem",
-      "type": "procedure",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coconutitem_living_entity_is_hit_with_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Crackedcoconut",
       "type": "food",
       "sortid": 5,
@@ -267,7 +250,12 @@
       "ids": {},
       "registry_name": "coconut_living_entity_is_hit_with_tool",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
@@ -278,6 +266,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "coconut"
+    },
+    {
+      "name": "Sandcastle1",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sandcastle_1"
+    },
+    {
+      "name": "Sandcastle2",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sandcastle_2"
+    },
+    {
+      "name": "Sandcastle1structure",
+      "type": "structure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sandcastle_1structure"
+    },
+    {
+      "name": "Sandcastle2structure",
+      "type": "structure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sandcastle_2structure"
     }
   ],
   "variable_elements": [],
@@ -292,6 +316,8 @@
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorlegs": "Bonearmour Leggings",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_hoe": "Fossiltools Hoe",
       "block.frost_and_dicers_vanillaenhanced.coconutplant": "Coconut plant",
+      "block.frost_and_dicers_vanillaenhanced.sandcastle_2": "Sand castle",
+      "block.frost_and_dicers_vanillaenhanced.sandcastle_1": "Sand castle",
       "item.frost_and_dicers_vanillaenhanced.ash": "Ash",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorbody": "Bonearmour Chestplate",
       "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
