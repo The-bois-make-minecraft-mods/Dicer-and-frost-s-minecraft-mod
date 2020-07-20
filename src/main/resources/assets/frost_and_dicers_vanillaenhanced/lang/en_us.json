@@ -1,4 +1,5 @@
 {
+  "item.frost_and_dicers_vanillaenhanced.coconut": "Coconut",
   "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossil Ore",
   "item.frost_and_dicers_vanillaenhanced.fossiltools_sword": "Fossiltools Sword",
   "block.frost_and_dicers_vanillaenhanced.beachwoodlog": "Beachwood log",
@@ -9,7 +10,6 @@
   "item.frost_and_dicers_vanillaenhanced.ash": "Ash",
   "item.frost_and_dicers_vanillaenhanced.bonearmour_armorbody": "Bonearmour Chestplate",
   "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
-  "item.frost_and_dicers_vanillaenhanced.coconutitem": "Coconut",
   "item.frost_and_dicers_vanillaenhanced.crackedcoconut": "Cracked coconut",
   "item.frost_and_dicers_vanillaenhanced.bonearmour_armorhelmet": "Bonearmour Helmet",
   "item.frost_and_dicers_vanillaenhanced.fossiltools_axe": "Fossiltools Axe",
