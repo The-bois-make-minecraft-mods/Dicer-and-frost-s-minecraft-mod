@@ -8,43 +8,11 @@
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
-      "value": ""
-    },
     "smeltingInputStack": {
-      "value": "CUSTOM:ShadoworeOre"
+      "value": "CUSTOM:ShadoworeGem"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:ShadoworeGem"
+      "value": "CUSTOM:Ash"
     },
     "name": "shadowore_ore_smelting",
     "namespace": "mod"

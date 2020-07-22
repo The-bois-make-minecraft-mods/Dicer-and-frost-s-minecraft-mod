@@ -5,12 +5,15 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 9,
+    "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Deathshard"
+      },
+      {
+        "value": "CUSTOM:Deathshard"
       },
       {
         "value": ""
@@ -19,10 +22,7 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ShadoworeOreBlock"
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -31,16 +31,16 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ShadoworeGem"
+      "value": "CUSTOM:DeathtoolsHoe"
     },
-    "name": "shadowore_block_ore_recipe",
+    "name": "deathtools_hoe_recipe",
     "namespace": "mod"
   }
 }

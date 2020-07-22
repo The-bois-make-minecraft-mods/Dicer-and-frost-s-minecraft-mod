@@ -4,9 +4,9 @@
   "experience": 3.15,
   "cookingtime": 200,
   "ingredient": {
-    "item": "frost_and_dicers_vanillaenhanced:shadowore_ore"
+    "item": "frost_and_dicers_vanillaenhanced:shadowore_gem"
   },
   "result": {
-    "item": "frost_and_dicers_vanillaenhanced:shadowore_gem"
+    "item": "frost_and_dicers_vanillaenhanced:ash"
   }
 }

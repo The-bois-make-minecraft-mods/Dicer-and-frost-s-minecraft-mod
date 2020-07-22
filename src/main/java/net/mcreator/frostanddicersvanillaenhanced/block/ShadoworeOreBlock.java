@@ -50,7 +50,7 @@ public class ShadoworeOreBlock extends FrostAndDicersVanillaenhancedModElements.
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(13.5f, 16.654822761921903f).lightValue(0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(15f, 16.654822761921903f).lightValue(0)
 					.harvestLevel(9).harvestTool(ToolType.PICKAXE));
 			setRegistryName("shadowore_ore");
 		}
@@ -82,7 +82,7 @@ public class ShadoworeOreBlock extends FrostAndDicersVanillaenhancedModElements.
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 1)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 1, 1, 16))));
+			}), block.getDefaultState(), 3)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(5, 1, 1, 6))));
 		}
 	}
 }

@@ -22,7 +22,7 @@
     "Mz": 1.0,
     "name": "Shadowore Ore",
     "specialInfo": [],
-    "hardness": 13.5,
+    "hardness": 15.0,
     "resistance": 16.654822761921903,
     "hasGravity": false,
     "creativeTab": {
@@ -59,7 +59,7 @@
     "soundOnStep": {
       "value": "STONE"
     },
-    "luminance": 0.0,
+    "luminance": 0.01,
     "unbreakable": false,
     "breakHarvestLevel": 9,
     "spawnParticles": false,
@@ -88,9 +88,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 1,
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 16
+    "maxGenerateHeight": 6
   }
 }

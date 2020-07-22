@@ -1,0 +1,28 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "deathsword",
+    "customModelName": "Normal",
+    "name": "Deathtools Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 9,
+    "efficiency": 15.0,
+    "attackSpeed": 3.0,
+    "enchantability": 63,
+    "damageVsEntity": 9.0,
+    "usageCount": 4000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DeathtoolsSword"
+      }
+    ]
+  }
+}
