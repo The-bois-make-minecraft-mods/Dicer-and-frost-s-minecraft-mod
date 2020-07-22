@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "frost_and_dicers_vanillaenhanced:block/sandcastle_1"
+    },
+    "facing=east": {
+      "model": "frost_and_dicers_vanillaenhanced:block/sandcastle_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "frost_and_dicers_vanillaenhanced:block/sandcastle_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "frost_and_dicers_vanillaenhanced:block/sandcastle_1",
+      "y": 270
+    }
+  }
+}

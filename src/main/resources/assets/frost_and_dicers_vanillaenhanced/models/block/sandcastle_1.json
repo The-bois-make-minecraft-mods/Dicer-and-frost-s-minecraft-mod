@@ -1,0 +1,8 @@
+{
+  "parent": "frost_and_dicers_vanillaenhanced:custom/sandcastlestructurea",
+  "textures": {
+    "all": "frost_and_dicers_vanillaenhanced:blocks/sand_texture",
+    "particle": "frost_and_dicers_vanillaenhanced:blocks/sand_texture",
+    "0": "frost_and_dicers_vanillaenhanced:blocks/sand_texture"
+  }
+}

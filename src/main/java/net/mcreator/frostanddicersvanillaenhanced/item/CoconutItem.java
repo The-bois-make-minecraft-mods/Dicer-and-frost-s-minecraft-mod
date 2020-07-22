@@ -70,6 +70,7 @@ public class CoconutItem extends FrostAndDicersVanillaenhancedModElements.ModEle
 				World world = entity.world;
 				{
 					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					$_dependencies.put("entity", entity);
 					CoconutLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
