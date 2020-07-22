@@ -27,7 +27,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.frostanddicersvanillaenhanced.item.FossilGemItem;
+import net.mcreator.frostanddicersvanillaenhanced.item.ShadoworeGemItem;
 import net.mcreator.frostanddicersvanillaenhanced.FrostAndDicersVanillaenhancedModElements;
 
 import java.util.Random;
@@ -35,11 +35,11 @@ import java.util.List;
 import java.util.Collections;
 
 @FrostAndDicersVanillaenhancedModElements.ModElement.Tag
-public class FossilOreBlock extends FrostAndDicersVanillaenhancedModElements.ModElement {
-	@ObjectHolder("frost_and_dicers_vanillaenhanced:fossil_ore")
+public class ShadoworeOreBlock extends FrostAndDicersVanillaenhancedModElements.ModElement {
+	@ObjectHolder("frost_and_dicers_vanillaenhanced:shadowore_ore")
 	public static final Block block = null;
-	public FossilOreBlock(FrostAndDicersVanillaenhancedModElements instance) {
-		super(instance, 1);
+	public ShadoworeOreBlock(FrostAndDicersVanillaenhancedModElements instance) {
+		super(instance, 32);
 	}
 
 	@Override
@@ -50,9 +50,9 @@ public class FossilOreBlock extends FrostAndDicersVanillaenhancedModElements.Mod
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(15f, 15.157165665103982f).lightValue(0)
-					.harvestLevel(3).harvestTool(ToolType.PICKAXE));
-			setRegistryName("fossil_ore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(13.5f, 16.654822761921903f).lightValue(0)
+					.harvestLevel(9).harvestTool(ToolType.PICKAXE));
+			setRegistryName("shadowore_ore");
 		}
 
 		@Override
@@ -60,7 +60,7 @@ public class FossilOreBlock extends FrostAndDicersVanillaenhancedModElements.Mod
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(FossilGemItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(ShadoworeGemItem.block, (int) (1)));
 		}
 	}
 	@Override
@@ -77,12 +77,12 @@ public class FossilOreBlock extends FrostAndDicersVanillaenhancedModElements.Mod
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("fossil_ore", "fossil_ore", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("shadowore_ore", "shadowore_ore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 6)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(8, 4, 4, 8))));
+			}), block.getDefaultState(), 1)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 1, 1, 16))));
 		}
 	}
 }

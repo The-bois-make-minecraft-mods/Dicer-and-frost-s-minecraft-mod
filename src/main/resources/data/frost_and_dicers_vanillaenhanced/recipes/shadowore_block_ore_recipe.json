@@ -1,0 +1,13 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "frost_and_dicers_vanillaenhanced:shadowore_ore_block"
+    }
+  ],
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:shadowore_gem",
+    "count": 9
+  }
+}
