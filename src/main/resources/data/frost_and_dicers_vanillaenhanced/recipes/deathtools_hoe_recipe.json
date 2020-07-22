@@ -1,0 +1,27 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "frost_and_dicers_vanillaenhanced:deathshard"
+    },
+    "1": {
+      "item": "frost_and_dicers_vanillaenhanced:deathshard"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:deathtools_hoe",
+    "count": 1
+  }
+}

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "shadowshard",
+    "texture": "deathshard",
     "customModelName": "Normal",
-    "name": "Shadow shard",
+    "name": "Death shard",
     "creativeTab": {
       "value": "MISC"
     },

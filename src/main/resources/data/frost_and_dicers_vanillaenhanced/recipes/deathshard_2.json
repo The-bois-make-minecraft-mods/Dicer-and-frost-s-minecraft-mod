@@ -1,0 +1,24 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "frost_and_dicers_vanillaenhanced:shadowore_gem"
+    },
+    "3": {
+      "item": "frost_and_dicers_vanillaenhanced:shadowore_gem"
+    },
+    "4": {
+      "item": "frost_and_dicers_vanillaenhanced:shadowore_gem"
+    }
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:deathshard",
+    "count": 1
+  }
+}
