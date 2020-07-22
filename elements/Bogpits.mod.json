@@ -3,10 +3,10 @@
   "_type": "biome",
   "definition": {
     "groundBlock": {
-      "value": "Blocks.DIRT#1"
+      "value": "CUSTOM:Mud"
     },
     "undergroundBlock": {
-      "value": "Blocks.DIRT#1"
+      "value": "CUSTOM:Hardenedmud"
     },
     "generateLakes": true,
     "treeType": 0,
@@ -25,7 +25,7 @@
     "treeFruits": {
       "value": ""
     },
-    "customColors": false,
+    "customColors": true,
     "airColor": {
       "value": -9741779,
       "falpha": 0.0
@@ -38,9 +38,9 @@
       "value": -11716345,
       "falpha": 0.0
     },
-    "treesPerChunk": 3,
-    "grassPerChunk": 4,
-    "flowersPerChunk": 4,
+    "treesPerChunk": 0,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPathcesPerChunk": 0,
@@ -49,16 +49,20 @@
     "cactiPerChunk": 0,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
-    "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "baseHeight": 0.0,
+    "heightVariation": 0.1,
     "spawnBiome": true,
-    "biomeWeight": 15,
+    "biomeWeight": 20,
     "biomeType": "DESERT",
     "biomeCategory": "NONE",
     "parent": {
-      "value": "No parent"
+      "value": "swamp"
     },
     "biomeDictionaryTypes": [],
-    "spawnList": []
+    "spawnList": [
+      {
+        "value": "EntityAmbientCreature"
+      }
+    ]
   }
 }

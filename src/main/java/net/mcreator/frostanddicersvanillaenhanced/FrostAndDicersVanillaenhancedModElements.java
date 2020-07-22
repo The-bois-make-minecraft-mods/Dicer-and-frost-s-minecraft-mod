@@ -51,6 +51,12 @@ public class FrostAndDicersVanillaenhancedModElements {
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public FrostAndDicersVanillaenhancedModElements() {
+		sounds.put(new ResourceLocation("frost_and_dicers_vanillaenhanced", "penguinidlesound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("frost_and_dicers_vanillaenhanced", "penguinidlesound")));
+		sounds.put(new ResourceLocation("frost_and_dicers_vanillaenhanced", "penguinhurt"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("frost_and_dicers_vanillaenhanced", "penguinhurt")));
+		sounds.put(new ResourceLocation("frost_and_dicers_vanillaenhanced", "penguindeath"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("frost_and_dicers_vanillaenhanced", "penguindeath")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("frost_and_dicers_vanillaenhanced").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

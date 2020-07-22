@@ -311,6 +311,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "smallpenguin"
+    },
+    {
+      "name": "MudEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mud",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud"
+    },
+    {
+      "name": "Hardenedmud",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardenedmud"
     }
   ],
   "variable_elements": [],
@@ -351,8 +386,10 @@
       "entity.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorhelmet": "Bonearmour Helmet",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_axe": "Fossiltools Axe",
+      "block.frost_and_dicers_vanillaenhanced.hardenedmud": "Hardenedmud",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorboots": "Bonearmour Boots",
       "block.frost_and_dicers_vanillaenhanced.beachwoodleaves": "Beachwood leaves",
+      "block.frost_and_dicers_vanillaenhanced.mud": "Mud",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_pickaxe": "Fossiltools Pickaxe"
     }
   },

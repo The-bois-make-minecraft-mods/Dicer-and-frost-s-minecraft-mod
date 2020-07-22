@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frost_and_dicers_vanillaenhanced:blocks/mud",
+    "up": "frost_and_dicers_vanillaenhanced:blocks/mud",
+    "north": "frost_and_dicers_vanillaenhanced:blocks/mud",
+    "east": "frost_and_dicers_vanillaenhanced:blocks/mud",
+    "south": "frost_and_dicers_vanillaenhanced:blocks/mud",
+    "west": "frost_and_dicers_vanillaenhanced:blocks/mud",
+    "particle": "frost_and_dicers_vanillaenhanced:blocks/mud"
+  }
+}
