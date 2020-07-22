@@ -52,7 +52,7 @@
     "baseHeight": 0.0,
     "heightVariation": 0.01,
     "spawnBiome": true,
-    "biomeWeight": 10,
+    "biomeWeight": 15,
     "biomeType": "WARM",
     "biomeCategory": "BEACH",
     "parent": {
