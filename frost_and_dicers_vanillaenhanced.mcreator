@@ -375,13 +375,31 @@
       "registry_name": "shadowore_ore_smelting"
     },
     {
-      "name": "Deathshard",
-      "type": "item",
-      "sortid": 38,
+      "name": "DeathtoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "deathshard"
+      "registry_name": "deathtools_axe_recipe"
+    },
+    {
+      "name": "DeathtoolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deathtools_shovel_recipe"
+    },
+    {
+      "name": "DeathtoolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deathtools_sword_recipe"
     },
     {
       "name": "Deathshard2",
@@ -402,15 +420,6 @@
       "registry_name": "deathtools_pickaxe"
     },
     {
-      "name": "DeathtoolsAxe",
-      "type": "tool",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "deathtools_axe"
-    },
-    {
       "name": "DeathtoolsSword",
       "type": "tool",
       "sortid": 42,
@@ -418,15 +427,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "deathtools_sword"
-    },
-    {
-      "name": "DeathtoolsShovel",
-      "type": "tool",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "deathtools_shovel"
     },
     {
       "name": "DeathtoolsPickaxeRecipe",
@@ -438,31 +438,40 @@
       "registry_name": "deathtools_pickaxe_recipe"
     },
     {
-      "name": "DeathtoolsAxeRecipe",
-      "type": "recipe",
-      "sortid": 46,
+      "name": "DeathtoolsAxe",
+      "type": "tool",
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "deathtools_axe_recipe"
+      "registry_name": "deathtools_axe"
     },
     {
-      "name": "DeathtoolsSwordRecipe",
-      "type": "recipe",
-      "sortid": 47,
+      "name": "DeathtoolsHoe",
+      "type": "tool",
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "deathtools_sword_recipe"
+      "registry_name": "deathtools_hoe"
     },
     {
-      "name": "DeathtoolsShovelRecipe",
-      "type": "recipe",
-      "sortid": 48,
+      "name": "Deathshard",
+      "type": "item",
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "deathtools_shovel_recipe"
+      "registry_name": "deathshard"
+    },
+    {
+      "name": "DeathtoolsShovel",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deathtools_shovel"
     },
     {
       "name": "DeathtoolsHoeRecipe",
@@ -474,13 +483,76 @@
       "registry_name": "deathtools_hoe_recipe"
     },
     {
-      "name": "DeathtoolsHoe",
-      "type": "tool",
+      "name": "Beachwoodslab",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodslab"
+    },
+    {
+      "name": "Beachwoodplanks",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodplanks"
+    },
+    {
+      "name": "Beachwoodplankrecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodplankrecipe"
+    },
+    {
+      "name": "Beachwoodstairsrecipe",
+      "type": "recipe",
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "deathtools_hoe"
+      "registry_name": "beachwoodstairsrecipe"
+    },
+    {
+      "name": "Beachwoodfencerecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodfencerecipe"
+    },
+    {
+      "name": "Beachwoodslabrecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodslabrecipe"
+    },
+    {
+      "name": "Beachwoodstairs",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodstairs"
+    },
+    {
+      "name": "Beachwoodfence",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodfence"
     }
   ],
   "variable_elements": [],
@@ -506,30 +578,24 @@
       "item.frost_and_dicers_vanillaenhanced.fossiltools_sword": "Fossiltools Sword",
       "item.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin Spawn Egg",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorlegs": "Bonearmour Leggings",
-      "item.frost_and_dicers_vanillaenhanced.shadowore_gem": "Shadow shard",
+      "item.frost_and_dicers_vanillaenhanced.shadowore_gem": "Shadowore",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_hoe": "Fossiltools Hoe",
       "block.frost_and_dicers_vanillaenhanced.coconutplant": "Coconut plant",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorbody": "Bonearmour Chestplate",
       "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
       "block.frost_and_dicers_vanillaenhanced.hardenedmud": "Hardenedmud",
       "block.frost_and_dicers_vanillaenhanced.mud": "Mud",
-      "item.frost_and_dicers_vanillaenhanced.deathtools_hoe": "Deathtools Hoe",
       "block.frost_and_dicers_vanillaenhanced.shadowore_ore": "Shadowore Ore",
       "item.frost_and_dicers_vanillaenhanced.coconut": "Coconut",
       "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossils",
-      "item.frost_and_dicers_vanillaenhanced.deathshard": "Death shard",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_shovel": "Fossiltools Shovel",
       "block.frost_and_dicers_vanillaenhanced.beachwoodlog": "Beachwood log",
-      "item.frost_and_dicers_vanillaenhanced.deathtools_sword": "Deathtools Sword",
-      "item.frost_and_dicers_vanillaenhanced.deathtools_shovel": "Deathtools Shovel",
       "block.frost_and_dicers_vanillaenhanced.sandcastle_2": "Sand castle",
       "block.frost_and_dicers_vanillaenhanced.sandcastle_1": "Sand castle",
-      "item.frost_and_dicers_vanillaenhanced.deathtools_axe": "Deathtools Axe",
       "item.frost_and_dicers_vanillaenhanced.ash": "Ash",
       "item.frost_and_dicers_vanillaenhanced.crackedcoconut": "Cracked coconut",
       "entity.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorhelmet": "Bonearmour Helmet",
-      "item.frost_and_dicers_vanillaenhanced.deathtools_pickaxe": "Deathtools Pickaxe",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_axe": "Fossiltools Axe",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorboots": "Bonearmour Boots",
       "block.frost_and_dicers_vanillaenhanced.beachwoodleaves": "Beachwood leaves",

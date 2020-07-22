@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "frost_and_dicers_vanillaenhanced:blocks/beachwoodplanks",
+    "top": "frost_and_dicers_vanillaenhanced:blocks/beachwoodplanks",
+    "side": "frost_and_dicers_vanillaenhanced:blocks/beachwoodplanks"
+  }
+}

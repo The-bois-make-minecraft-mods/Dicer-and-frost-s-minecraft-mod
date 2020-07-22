@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "frost_and_dicers_vanillaenhanced:blocks/beachwoodplanks",
+    "particle": "frost_and_dicers_vanillaenhanced:blocks/beachwoodplanks"
+  }
+}

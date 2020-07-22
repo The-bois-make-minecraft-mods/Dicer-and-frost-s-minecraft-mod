@@ -1,0 +1,16 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodlog"
+    }
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks",
+    "count": 4
+  }
+}
