@@ -346,6 +346,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hardenedmud"
+    },
+    {
+      "name": "ShadoworeOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowore_ore"
+    },
+    {
+      "name": "ShadoworeGem",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowore_gem"
+    },
+    {
+      "name": "ShadoworeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowore_block_ore_recipe"
+    },
+    {
+      "name": "ShadoworeOreSmelting",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowore_ore_smelting"
     }
   ],
   "variable_elements": [],
@@ -368,28 +404,30 @@
   ],
   "language_map": {
     "en_us": {
-      "item.frost_and_dicers_vanillaenhanced.coconut": "Coconut",
-      "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossil Ore",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_sword": "Fossiltools Sword",
       "item.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin Spawn Egg",
-      "block.frost_and_dicers_vanillaenhanced.beachwoodlog": "Beachwood log",
-      "item.frost_and_dicers_vanillaenhanced.fossiltools_shovel": "Fossiltools Shovel",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorlegs": "Bonearmour Leggings",
+      "item.frost_and_dicers_vanillaenhanced.shadowore_gem": "Shadowore",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_hoe": "Fossiltools Hoe",
       "block.frost_and_dicers_vanillaenhanced.coconutplant": "Coconut plant",
+      "item.frost_and_dicers_vanillaenhanced.bonearmour_armorbody": "Bonearmour Chestplate",
+      "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
+      "block.frost_and_dicers_vanillaenhanced.hardenedmud": "Hardenedmud",
+      "block.frost_and_dicers_vanillaenhanced.mud": "Mud",
+      "block.frost_and_dicers_vanillaenhanced.shadowore_ore": "Shadowore Ore",
+      "item.frost_and_dicers_vanillaenhanced.coconut": "Coconut",
+      "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossils",
+      "item.frost_and_dicers_vanillaenhanced.fossiltools_shovel": "Fossiltools Shovel",
+      "block.frost_and_dicers_vanillaenhanced.beachwoodlog": "Beachwood log",
       "block.frost_and_dicers_vanillaenhanced.sandcastle_2": "Sand castle",
       "block.frost_and_dicers_vanillaenhanced.sandcastle_1": "Sand castle",
       "item.frost_and_dicers_vanillaenhanced.ash": "Ash",
-      "item.frost_and_dicers_vanillaenhanced.bonearmour_armorbody": "Bonearmour Chestplate",
-      "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
       "item.frost_and_dicers_vanillaenhanced.crackedcoconut": "Cracked coconut",
       "entity.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorhelmet": "Bonearmour Helmet",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_axe": "Fossiltools Axe",
-      "block.frost_and_dicers_vanillaenhanced.hardenedmud": "Hardenedmud",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorboots": "Bonearmour Boots",
       "block.frost_and_dicers_vanillaenhanced.beachwoodleaves": "Beachwood leaves",
-      "block.frost_and_dicers_vanillaenhanced.mud": "Mud",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_pickaxe": "Fossiltools Pickaxe"
     }
   },

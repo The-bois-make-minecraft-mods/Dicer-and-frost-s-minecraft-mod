@@ -1,0 +1,12 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:smelting",
+  "experience": 3.15,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "frost_and_dicers_vanillaenhanced:shadowore_ore"
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:shadowore_gem"
+  }
+}
