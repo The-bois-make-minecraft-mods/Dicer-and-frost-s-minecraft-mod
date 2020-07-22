@@ -1,0 +1,22 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "1": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "2": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    }
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:beachwoodslab",
+    "count": 3
+  }
+}

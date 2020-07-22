@@ -382,6 +382,78 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shadowore_ore_smelting"
+    },
+    {
+      "name": "Beachwoodplanks",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodplanks"
+    },
+    {
+      "name": "Beachwoodfence",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodfence"
+    },
+    {
+      "name": "Beachwoodstairs",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodstairs"
+    },
+    {
+      "name": "Beachwoodslab",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodslab"
+    },
+    {
+      "name": "Beachwoodplankrecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodplankrecipe"
+    },
+    {
+      "name": "Beachwoodfencerecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodfencerecipe"
+    },
+    {
+      "name": "Beachwoodstairsrecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodstairsrecipe"
+    },
+    {
+      "name": "Beachwoodslabrecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beachwoodslabrecipe"
     }
   ],
   "variable_elements": [],
@@ -406,11 +478,13 @@
     "en_us": {
       "item.frost_and_dicers_vanillaenhanced.fossiltools_sword": "Fossiltools Sword",
       "item.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin Spawn Egg",
+      "block.frost_and_dicers_vanillaenhanced.beachwoodplanks": "Beachwood planks",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorlegs": "Bonearmour Leggings",
       "item.frost_and_dicers_vanillaenhanced.shadowore_gem": "Shadowore",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_hoe": "Fossiltools Hoe",
       "block.frost_and_dicers_vanillaenhanced.coconutplant": "Coconut plant",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorbody": "Bonearmour Chestplate",
+      "block.frost_and_dicers_vanillaenhanced.beachwoodslab": "Beachwood slab",
       "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
       "block.frost_and_dicers_vanillaenhanced.hardenedmud": "Hardenedmud",
       "block.frost_and_dicers_vanillaenhanced.mud": "Mud",
@@ -420,11 +494,13 @@
       "item.frost_and_dicers_vanillaenhanced.fossiltools_shovel": "Fossiltools Shovel",
       "block.frost_and_dicers_vanillaenhanced.beachwoodlog": "Beachwood log",
       "block.frost_and_dicers_vanillaenhanced.sandcastle_2": "Sand castle",
+      "block.frost_and_dicers_vanillaenhanced.beachwoodstairs": "Beachwood stairs",
       "block.frost_and_dicers_vanillaenhanced.sandcastle_1": "Sand castle",
       "item.frost_and_dicers_vanillaenhanced.ash": "Ash",
       "item.frost_and_dicers_vanillaenhanced.crackedcoconut": "Cracked coconut",
       "entity.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorhelmet": "Bonearmour Helmet",
+      "block.frost_and_dicers_vanillaenhanced.beachwoodfence": "Beachwood fence",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_axe": "Fossiltools Axe",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorboots": "Bonearmour Boots",
       "block.frost_and_dicers_vanillaenhanced.beachwoodleaves": "Beachwood leaves",

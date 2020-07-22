@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "frost_and_dicers_vanillaenhanced:block/beachwoodfence_post"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "frost_and_dicers_vanillaenhanced:block/beachwoodfence",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "frost_and_dicers_vanillaenhanced:block/beachwoodfence",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "frost_and_dicers_vanillaenhanced:block/beachwoodfence",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "frost_and_dicers_vanillaenhanced:block/beachwoodfence",
+        "y": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

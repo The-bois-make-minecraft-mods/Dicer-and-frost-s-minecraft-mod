@@ -1,0 +1,36 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "2": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "3": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "6": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "8": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    }
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:beachwoodfence",
+    "count": 3
+  }
+}

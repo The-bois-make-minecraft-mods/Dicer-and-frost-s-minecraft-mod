@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "frost_and_dicers_vanillaenhanced:block/beachwoodslab"
+    },
+    "type=top": {
+      "model": "frost_and_dicers_vanillaenhanced:block/beachwoodslab_top"
+    },
+    "type=double": {
+      "model": "frost_and_dicers_vanillaenhanced:block/beachwoodslab_full"
+    }
+  }
+}

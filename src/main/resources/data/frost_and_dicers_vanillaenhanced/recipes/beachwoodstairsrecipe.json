@@ -1,0 +1,33 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "3": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "4": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "6": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "7": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    },
+    "8": {
+      "item": "frost_and_dicers_vanillaenhanced:beachwoodplanks"
+    }
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:beachwoodstairs",
+    "count": 3
+  }
+}

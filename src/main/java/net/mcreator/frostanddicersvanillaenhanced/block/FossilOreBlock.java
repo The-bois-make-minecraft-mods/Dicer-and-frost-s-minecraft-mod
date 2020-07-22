@@ -82,7 +82,7 @@ public class FossilOreBlock extends FrostAndDicersVanillaenhancedModElements.Mod
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 6)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(8, 4, 4, 8))));
+			}), block.getDefaultState(), 7)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 1, 1, 9))));
 		}
 	}
 }

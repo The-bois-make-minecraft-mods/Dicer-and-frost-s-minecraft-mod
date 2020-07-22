@@ -2,7 +2,7 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "bone",
+    "texture": "beachwoodplanks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -20,17 +20,17 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Fossils",
+    "name": "Beachwood planks",
     "specialInfo": [],
-    "hardness": 15.0,
-    "resistance": 15.157165665103982,
+    "hardness": 1.5,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:FossilGem"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -39,7 +39,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -57,11 +57,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -79,18 +79,16 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 9
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }
