@@ -553,6 +553,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "deathtools_hoe_recipe"
+    },
+    {
+      "name": "Gornititeingotitem",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gornititeingotitem"
+    },
+    {
+      "name": "Gornatiteoreblock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gornatiteoreblock"
+    },
+    {
+      "name": "Gormititeingotrecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gormititeingotrecipe"
+    },
+    {
+      "name": "Gormititeingotblastrecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gormititeingotblastrecipe"
     }
   ],
   "variable_elements": [],
@@ -584,6 +620,7 @@
       "block.frost_and_dicers_vanillaenhanced.coconutplant": "Coconut plant",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorbody": "Bonearmour Chestplate",
       "block.frost_and_dicers_vanillaenhanced.beachwoodslab": "Beachwood slab",
+      "block.frost_and_dicers_vanillaenhanced.gornatiteoreblock": "Gornatite ore",
       "item.frost_and_dicers_vanillaenhanced.fossil_gem": "Fossil",
       "block.frost_and_dicers_vanillaenhanced.hardenedmud": "Hardenedmud",
       "block.frost_and_dicers_vanillaenhanced.mud": "Mud",
@@ -609,6 +646,7 @@
       "item.frost_and_dicers_vanillaenhanced.fossiltools_axe": "Fossiltools Axe",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorboots": "Bonearmour Boots",
       "block.frost_and_dicers_vanillaenhanced.beachwoodleaves": "Beachwood leaves",
+      "item.frost_and_dicers_vanillaenhanced.gornititeingotitem": "Gornitite ingot",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_pickaxe": "Fossiltools Pickaxe"
     }
   },

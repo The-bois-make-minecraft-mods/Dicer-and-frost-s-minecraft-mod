@@ -1,0 +1,12 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 145,
+  "ingredient": {
+    "item": "frost_and_dicers_vanillaenhanced:gornatiteoreblock"
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:gornititeingotitem"
+  }
+}
