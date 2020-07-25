@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "frost_and_dicers_vanillaenhanced:block/shadowdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "frost_and_dicers_vanillaenhanced:block/shadowdimension_portal_ns"
+    }
+  }
+}

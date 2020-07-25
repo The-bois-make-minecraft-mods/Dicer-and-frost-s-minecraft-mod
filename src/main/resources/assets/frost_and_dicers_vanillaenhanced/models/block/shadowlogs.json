@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frost_and_dicers_vanillaenhanced:blocks/shadowlogtop",
+    "up": "frost_and_dicers_vanillaenhanced:blocks/shadowlogtop",
+    "north": "frost_and_dicers_vanillaenhanced:blocks/shadowlogside",
+    "east": "frost_and_dicers_vanillaenhanced:blocks/shadowlogside",
+    "south": "frost_and_dicers_vanillaenhanced:blocks/shadowlogside",
+    "west": "frost_and_dicers_vanillaenhanced:blocks/shadowlogside",
+    "particle": "frost_and_dicers_vanillaenhanced:blocks/shadowlogtop"
+  }
+}

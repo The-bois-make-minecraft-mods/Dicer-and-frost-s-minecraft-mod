@@ -1,0 +1,19 @@
+{
+  "_fv": 8,
+  "_type": "fluid",
+  "definition": {
+    "name": "Purplegoop",
+    "textureStill": "purplegoop",
+    "textureFlowing": "frowingpurplegoop",
+    "luminosity": 1,
+    "density": 1500,
+    "viscosity": 1450,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "spawnWorldTypes": []
+  }
+}

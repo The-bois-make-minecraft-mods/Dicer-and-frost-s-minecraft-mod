@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frost_and_dicers_vanillaenhanced:blocks/shadowgrassbottom",
+    "up": "frost_and_dicers_vanillaenhanced:blocks/shadowgrasstop",
+    "north": "frost_and_dicers_vanillaenhanced:blocks/shadowgrassside",
+    "east": "frost_and_dicers_vanillaenhanced:blocks/shadowgrassside",
+    "south": "frost_and_dicers_vanillaenhanced:blocks/shadowgrassside",
+    "west": "frost_and_dicers_vanillaenhanced:blocks/shadowgrassside",
+    "particle": "frost_and_dicers_vanillaenhanced:blocks/shadowgrassbottom"
+  }
+}

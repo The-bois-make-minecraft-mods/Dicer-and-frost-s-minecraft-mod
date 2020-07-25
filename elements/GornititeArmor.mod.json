@@ -1,0 +1,47 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "gornitite_head",
+    "enableBody": true,
+    "textureBody": "gornitite_body",
+    "enableLeggings": true,
+    "textureLeggings": "gornitite_leggings",
+    "enableBoots": true,
+    "textureBoots": "gornitite_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "gornitite",
+    "helmetName": "Gornitite Helmet",
+    "bodyName": "Gornitite Chestplate",
+    "leggingsName": "Gornitite Leggings",
+    "bootsName": "Gornitite Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 26,
+    "damageValueHelmet": 5,
+    "damageValueBody": 13,
+    "damageValueLeggings": 14,
+    "damageValueBoots": 5,
+    "enchantability": 18,
+    "toughness": 1.5,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": []
+  }
+}

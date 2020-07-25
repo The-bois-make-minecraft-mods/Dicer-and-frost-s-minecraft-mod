@@ -1,0 +1,47 @@
+{
+  "_fv": 8,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:Deathblock"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0.25,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Shadow Rift Opener",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "shadowrealmopener",
+    "portalTexture": "shadowrealmportal",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Whisperingforest"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Shadowstoneblock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Purplegoop"
+    },
+    "airColor": {
+      "value": -13296292,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}

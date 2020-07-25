@@ -1,0 +1,26 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "frost_and_dicers_vanillaenhanced:gornititeingotitem"
+    },
+    "2": {
+      "item": "frost_and_dicers_vanillaenhanced:gornititeingotitem"
+    },
+    "3": {
+      "item": "frost_and_dicers_vanillaenhanced:gornititeingotitem"
+    },
+    "5": {
+      "item": "frost_and_dicers_vanillaenhanced:gornititeingotitem"
+    }
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:gornitite_armorboots",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gornitite_sword",
+    "customModelName": "Normal",
+    "name": "Gornitite Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.6,
+    "enchantability": 9,
+    "damageVsEntity": 4.0,
+    "usageCount": 1347,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}
