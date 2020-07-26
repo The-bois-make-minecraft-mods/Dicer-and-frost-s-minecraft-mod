@@ -38,7 +38,7 @@
       "value": -14329397,
       "falpha": 0.0
     },
-    "treesPerChunk": 7,
+    "treesPerChunk": 10,
     "grassPerChunk": 0,
     "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
@@ -50,7 +50,7 @@
     "rainingPossibility": 0.6,
     "temperature": 0.4,
     "baseHeight": 0.0,
-    "heightVariation": 0.1,
+    "heightVariation": 0.0,
     "spawnBiome": false,
     "biomeWeight": 20,
     "biomeType": "WARM",

@@ -53,7 +53,7 @@ public class WhisperingforestBiome extends FrostAndDicersVanillaenhancedModEleme
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.6f).depth(0f).scale(0.1f).temperature(0.4f).precipitation(Biome.RainType.RAIN)
+			super(new Biome.Builder().downfall(0.6f).depth(0f).scale(0f).temperature(0.4f).precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.FOREST).waterColor(4159204).waterFogColor(329011)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(ShadowgrassBlock.block.getDefaultState(),
 							ShadowstoneblockBlock.block.getDefaultState(), ShadowstoneblockBlock.block.getDefaultState())));
@@ -66,7 +66,7 @@ public class WhisperingforestBiome extends FrostAndDicersVanillaenhancedModEleme
 					.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(ShadowlogsBlock.block.getDefaultState()),
 							new SimpleBlockStateProvider(ShadowleavesblockBlock.block.getDefaultState()))).baseHeight(8)
 									.setSapling((net.minecraftforge.common.IPlantable) Blocks.JUNGLE_SAPLING).build())
-					.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(7, 0.1F, 1))));
+					.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(10, 0.1F, 1))));
 		}
 	}
 

@@ -1,0 +1,42 @@
+{
+  "group": "frost_and_dicers_vanillaenhanced",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "frost_and_dicers_vanillaenhanced:deathshard"
+    },
+    "1": {
+      "item": "frost_and_dicers_vanillaenhanced:deathshard"
+    },
+    "2": {
+      "item": "frost_and_dicers_vanillaenhanced:deathshard"
+    },
+    "3": {
+      "item": "frost_and_dicers_vanillaenhanced:deathshard"
+    },
+    "4": {
+      "item": "minecraft:dragon_breath"
+    },
+    "5": {
+      "item": "frost_and_dicers_vanillaenhanced:deathshard"
+    },
+    "6": {
+      "item": "frost_and_dicers_vanillaenhanced:deathshard"
+    },
+    "7": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "8": {
+      "item": "frost_and_dicers_vanillaenhanced:deathshard"
+    }
+  },
+  "result": {
+    "item": "frost_and_dicers_vanillaenhanced:shadowdimension",
+    "count": 1
+  }
+}

@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Deathshard"
       },
       {
-        "value": "CUSTOM:Shadowsharditem"
+        "value": "CUSTOM:Deathshard"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Deathshard"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Deathshard"
       },
       {
-        "value": ""
+        "value": "Items.DRAGON_BREATH"
       },
       {
-        "value": "CUSTOM:Shadowsharditem"
+        "value": "CUSTOM:Deathshard"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Deathshard"
       },
       {
-        "value": "CUSTOM:Shadowsharditem"
+        "value": "Items.DYE#4"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Deathshard"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Deathshard"
+      "value": "CUSTOM:Shadowdimension"
     },
-    "name": "deathshard_2",
+    "name": "shadowrealmopenerrecipe",
     "namespace": "mod"
   }
 }

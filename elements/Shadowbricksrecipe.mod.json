@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.CLAY_BALL"
       },
       {
-        "value": "CUSTOM:Shadowsharditem"
+        "value": "Items.CLAY_BALL"
       },
       {
-        "value": ""
+        "value": "Items.CLAY_BALL"
       },
       {
-        "value": ""
+        "value": "Items.CLAY_BALL"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Deathshard"
       },
       {
-        "value": "CUSTOM:Shadowsharditem"
+        "value": "Items.CLAY_BALL"
       },
       {
-        "value": ""
+        "value": "Items.CLAY_BALL"
       },
       {
-        "value": "CUSTOM:Shadowsharditem"
+        "value": "Items.CLAY_BALL"
       },
       {
-        "value": ""
+        "value": "Items.CLAY_BALL"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Deathshard"
+      "value": "CUSTOM:Deathblock"
     },
-    "name": "deathshard_2",
+    "name": "shadowbricksrecipe",
     "namespace": "mod"
   }
 }

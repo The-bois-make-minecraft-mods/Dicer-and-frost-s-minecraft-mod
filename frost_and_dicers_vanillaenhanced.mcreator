@@ -802,6 +802,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shadowdimension"
+    },
+    {
+      "name": "Shadowsharditem",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowsharditem"
+    },
+    {
+      "name": "Shadowrealmopenerrecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowrealmopenerrecipe"
+    },
+    {
+      "name": "Shadowbricksrecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowbricksrecipe"
     }
   ],
   "variable_elements": [],
@@ -845,6 +872,7 @@
       "block.frost_and_dicers_vanillaenhanced.sandcastle_2": "Sand castle",
       "block.frost_and_dicers_vanillaenhanced.sandcastle_1": "Sand castle",
       "item.frost_and_dicers_vanillaenhanced.deathtools_axe": "Deathtools Axe",
+      "item.frost_and_dicers_vanillaenhanced.shadowsharditem": "Shadow shard",
       "item.frost_and_dicers_vanillaenhanced.ash": "Ash",
       "entity.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorhelmet": "Bonearmour Helmet",
