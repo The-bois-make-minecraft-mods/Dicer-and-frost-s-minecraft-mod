@@ -127,7 +127,8 @@ public class ShadowdimensionDimension extends FrostAndDicersVanillaenhancedModEl
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("frost_and_dicers_vanillaenhanced:whisperingforest")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("frost_and_dicers_vanillaenhanced:whisperingforest")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("frost_and_dicers_vanillaenhanced:corrupteddesert")),};
 	}
 
 	@Override

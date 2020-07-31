@@ -22,6 +22,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Whisperingforest"
+      },
+      {
+        "value": "CUSTOM:Corrupteddesert"
       }
     ],
     "worldGenType": "Normal world gen",

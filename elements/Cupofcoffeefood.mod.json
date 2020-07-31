@@ -1,0 +1,25 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cupofcoffee",
+    "customModelName": "Normal",
+    "name": "Cup of coffee",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 0,
+    "saturation": 0.5,
+    "eatingSpeed": 35,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CupofcoffeefoodFoodEaten"
+    }
+  }
+}

@@ -829,6 +829,68 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shadowbricksrecipe"
+    },
+    {
+      "name": "Shadowsand",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowsand"
+    },
+    {
+      "name": "Corrupteddesert",
+      "type": "biome",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupteddesert"
+    },
+    {
+      "name": "CupofcoffeefoodFoodEaten",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cupofcoffeefood_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cupofcoffeefood",
+      "type": "food",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cupofcoffeefood"
+    },
+    {
+      "name": "Mug",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mug"
+    },
+    {
+      "name": "Coffeebeansitem",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffeebeansitem"
     }
   ],
   "variable_elements": [],
@@ -868,12 +930,13 @@
       "item.frost_and_dicers_vanillaenhanced.gornitite_axe": "Gornitite Axe",
       "item.frost_and_dicers_vanillaenhanced.deathshard": "Death shard",
       "block.frost_and_dicers_vanillaenhanced.beachwoodlog": "Beachwood log",
-      "item.frost_and_dicers_vanillaenhanced.gornitite_armorhelmet": "Gornitite Helmet",
       "block.frost_and_dicers_vanillaenhanced.sandcastle_2": "Sand castle",
+      "item.frost_and_dicers_vanillaenhanced.gornitite_armorhelmet": "Gornitite Helmet",
       "block.frost_and_dicers_vanillaenhanced.sandcastle_1": "Sand castle",
       "item.frost_and_dicers_vanillaenhanced.deathtools_axe": "Deathtools Axe",
       "item.frost_and_dicers_vanillaenhanced.shadowsharditem": "Shadow shard",
       "item.frost_and_dicers_vanillaenhanced.ash": "Ash",
+      "block.frost_and_dicers_vanillaenhanced.shadowsand": "Shadowsand",
       "entity.frost_and_dicers_vanillaenhanced.smallpenguin": "penguin",
       "item.frost_and_dicers_vanillaenhanced.bonearmour_armorhelmet": "Bonearmour Helmet",
       "item.frost_and_dicers_vanillaenhanced.gornitite_armorlegs": "Gornitite Leggings",
@@ -894,11 +957,14 @@
       "item.frost_and_dicers_vanillaenhanced.purplegoop_bucket": "Purplegoop Bucket",
       "block.frost_and_dicers_vanillaenhanced.shadowlogs": "Shadow log",
       "block.frost_and_dicers_vanillaenhanced.mud": "Mud",
+      "item.frost_and_dicers_vanillaenhanced.cupofcoffeefood": "Cup of coffee",
       "block.frost_and_dicers_vanillaenhanced.fossil_ore": "Fossils",
+      "item.frost_and_dicers_vanillaenhanced.mug": "Coffee Mug",
       "item.frost_and_dicers_vanillaenhanced.fossiltools_shovel": "Fossiltools Shovel",
       "item.frost_and_dicers_vanillaenhanced.deathtools_sword": "Deathtools Sword",
       "item.frost_and_dicers_vanillaenhanced.deathtools_shovel": "Deathtools Shovel",
       "block.frost_and_dicers_vanillaenhanced.beachwoodstairs": "Beachwood stairs",
+      "item.frost_and_dicers_vanillaenhanced.coffeebeansitem": "Coffee beans",
       "item.frost_and_dicers_vanillaenhanced.crackedcoconut": "Cracked coconut",
       "item.frost_and_dicers_vanillaenhanced.deathtools_pickaxe": "Deathtools Pickaxe",
       "block.frost_and_dicers_vanillaenhanced.beachwoodfence": "Beachwood fence",
